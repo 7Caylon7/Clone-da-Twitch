@@ -84,3 +84,38 @@
 }
 
 /* -----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------ASIDE----------------------------------------------------------------*/
+.side{
+    justify-content: center;
+    background-color: #2E4F4F;
+    max-width: 15rem;
+    color: #eeeeee;
+    height: 100%;
+}
+
+.side_top_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 0.6rem;
+    padding-top: 0.5rem;
+    
+}
+
+.side_lista li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.7rem;
+}
+
+.in_live{
+    background-color: #ff0000;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin-left: 2.5rem;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
